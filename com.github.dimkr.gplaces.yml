@@ -13,8 +13,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/dimkr/gplaces
-        tag: v0.16.18
-        commit: 839b7faf45e6452e8e279f72e67acb0138602242
+        tag: v0.16.19
+        commit: c907bdf719ad069da2f75daf01f371921f5fde0f
 finish-args:
   - --share=network
   - --filesystem=xdg-download
