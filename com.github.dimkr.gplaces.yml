@@ -9,12 +9,13 @@ modules:
   - name: gplaces
     buildsystem: simple
     build-commands:
-      - make PREFIX=/app CONFDIR=/app/etc install
+      - make PREFIX=/app CONFDIR=/app/etc WITH_FLATPAK_SPAWN=1 install
     sources:
       - type: git
         url: https://github.com/dimkr/gplaces
-        tag: v0.16.36
-        commit: 1fa76d5d93f8977e4273ca50ea3cb9efcaacab01
+        tag: v0.16.37
+        commit: 35dc3516494d6b1edb4d262f87adbe236ad746e6
 finish-args:
   - --share=network
   - --filesystem=xdg-download
+  - --talk-name=org.freedesktop.Flatpak
