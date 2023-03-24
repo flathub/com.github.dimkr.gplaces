@@ -13,9 +13,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/dimkr/gplaces
-        tag: v0.16.37
-        commit: 35dc3516494d6b1edb4d262f87adbe236ad746e6
+        tag: v0.16.38
+        commit: 0a4c053506f1777cda3b79673dab6fec48417628
 finish-args:
   - --share=network
   - --filesystem=xdg-download
-  - --talk-name=org.freedesktop.Flatpak
